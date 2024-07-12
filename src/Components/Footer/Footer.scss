@@ -1,0 +1,32 @@
+.footer {
+  
+    background-color: #1c1e21;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+
+    p {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    .legal-links {
+        margin-top: 10px;
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #cccccc;
+            }
+        }
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}

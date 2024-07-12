@@ -1,0 +1,83 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .RegisterSeeker {
+    width: calc(50% - 20px); /* Adjust width as needed */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="file"] {
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: border-color 0.3s ease-in-out;
+  
+        &:focus {
+          border-color: #1da0f2;
+        }
+      }
+  .login{
+  color:#007bff;
+  padding: 5px;
+  }
+      label {
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+      }
+  
+      input[type="file"] {
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+  
+      button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  
+  

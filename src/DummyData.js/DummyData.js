@@ -1,0 +1,36 @@
+export const scholarships = [
+    {
+      id: 1,
+      title: "Merit Scholarship",
+      provider: "University of Example",
+      location: "Example City, Example Country",
+      description: "This scholarship is awarded based on academic excellence and achievements.",
+      eligibility: "Undergraduate students with a GPA of 3.5 or higher.",
+      benefits: "Covers tuition fees for one academic year.",
+      deadline: "2024-08-15",
+      website: "https://www.example.com/merit-scholarship",
+    },
+    {
+      id: 2,
+      title: "STEM Scholarship",
+      provider: "STEM Foundation",
+      location: "Global",
+      description: "Supports students pursuing degrees in Science, Technology, Engineering, and Mathematics (STEM).",
+      eligibility: "Open to undergraduate and graduate students worldwide.",
+      benefits: "Financial support up to $10,000 per year.",
+      deadline: "2024-09-30",
+      website: "https://www.stemfoundation.org/scholarship",
+    },
+    {
+      id: 3,
+      title: "Diversity Scholarship",
+      provider: "Diversity in Education Initiative",
+      location: "Various locations",
+      description: "Promotes diversity and inclusion in education by providing financial assistance to students from underrepresented backgrounds.",
+      eligibility: "Open to minority students enrolled in accredited institutions.",
+      benefits: "Full tuition coverage and living stipend.",
+      deadline: "2024-07-31",
+      website: "https://www.diversityineducation.org/scholarship",
+    },
+  ];
+  

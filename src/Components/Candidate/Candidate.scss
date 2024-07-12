@@ -1,0 +1,90 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-family: 'Arial, sans-serif';
+$background-color: #f4f4f4;
+$border-radius: 10px;
+.contents {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 20px;
+min-height: calc(100vh - 180px);
+  .candidate-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-right: 20px;
+  
+  
+    .head {
+    
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: $primary-color;
+  text-align: center;
+
+ img{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+    }
+
+    .candidate {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+      gap: 0px;
+     
+    }
+    .candidate .job-listing {
+      cursor: pointer;
+      width:2000px;
+      background-color: white;
+      border:1px solid #3498db;
+      border-radius: $border-radius;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    .nojob {
+      width: 100%;
+      height: auto;
+      
+    }
+  }
+
+  .message_container {
+    border:1px solid #3498db;
+    max-height: 350px;
+    flex: 1;
+   
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    RiMessage3Fill {
+   margin-top: 8900px;
+   .appliedjobs{
+    background-color: #2ecc71;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+
+
+   }
+  }
+}
+}
