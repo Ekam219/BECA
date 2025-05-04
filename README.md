@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 🎓 Beca - Scholarship Discovery and Provider Dashboard (Frontend Only)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Beca** is a modern, responsive frontend-only web application that bridges the gap between students seeking scholarships and organizations offering them. It offers personalized tools for students to discover, track, and manage scholarships, and equips providers with dashboards and data visualizations to oversee their scholarship programs effectively.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+🔗 **Try it here:** [https://becaa.netlify.app/](https://becaa.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Project Highlights
 
-### `npm test`
+- 🌍 **Responsive UI** built for both mobile and desktop
+- 🎯 **Role-based Portals** for students and scholarship providers
+- 📈 **Visual Analytics** using Chart.js
+- 🔍 **Dynamic, real-time filtering and searching**
+- 🗂️ **Modular and scalable folder structure**
+- ⚡ **Hosted on Netlify** for blazing-fast performance
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Features Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👩‍🎓 Student Portal
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> Designed to streamline scholarship discovery, tracking, and application management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🔍 **Advanced Dynamic Search**
+  - Filter scholarships by: category, location, level (UG/PG), deadline, fund amount, eligibility, keywords
+  - Real-time updating with debounce for smooth UX
 
-### `npm run eject`
+- 📌 **Save & Bookmark Scholarships**
+  - Add scholarships to a personal saved list
+  - View saved items from a dedicated dashboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 📊 **Application Tracker**
+  - Track scholarship progress with status tags (e.g., Applied, Shortlisted, Rejected)
+  - Optional notes per scholarship (e.g., submission deadlines)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🧠 **Smart Recommendations (Planned)**
+  - AI-driven suggestion engine based on:
+    - Past applications
+    - Interests and academic background
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 📅 **Deadline Calendar View (Planned)**
+  - Visualize upcoming deadlines using a calendar interface
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- 🔔 **Scholarship Alerts & Notifications (Planned)**
+  - Email/push notifications for new scholarships matching saved filters
 
-## Learn More
+- 🖼️ **User Profile Page**
+  - Basic profile for storing preferences and eligibility details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🏛️ Scholarship Provider Portal
 
-### Code Splitting
+> Empowers organizations to create, manage, and analyze their scholarships with real-time dashboards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 📝 **Scholarship Submission Form**
+  - Add new scholarships with form validation
+  - Support for categories, descriptions, deadlines, attachments
 
-### Analyzing the Bundle Size
+- 📋 **Scholarship Management Dashboard**
+  - Edit, archive, or remove existing scholarships
+  - Table view with filtering, sorting, and pagination
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- 📊 **Data Visualization with Chart.js**
+  - See:
+    - Number of active vs expired scholarships
+    - Application trends over time (simulated)
+    - Top fields of study
+    - User engagement metrics
 
-### Making a Progressive Web App
+- 🧾 **Mock Application Viewer**
+  - Simulated data for how students interact with scholarships
+  - Useful for demos and user testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- 🏷️ **Tag-Based Categorization**
+  - Organize scholarships by type, field, or funding body
 
-### Advanced Configuration
+- 📤 **Export Analytics (Planned)**
+  - Export charts and metrics as images or CSV for reporting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
